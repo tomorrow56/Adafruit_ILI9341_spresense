@@ -72,6 +72,12 @@
   #define SPI_DEFAULT_FREQ  24000000  ///< Default SPI data clock frequency
 #endif
 
+#if defined (ARDUINO_ARCH_SPRESENSE)
+  #define SPI_MODE SPI_MODE3
+#else
+  #define SPI_MODE SPI_MODE0
+#endif
+
 #define MADCTL_MY  0x80  ///< Bottom to top
 #define MADCTL_MX  0x40  ///< Right to left
 #define MADCTL_MV  0x20  ///< Reverse Mode
@@ -186,7 +192,7 @@ static const uint8_t PROGMEM initcmd[] = {
 void Adafruit_ILI9341::begin(uint32_t freq) {
 
     if(!freq) freq = SPI_DEFAULT_FREQ;
-    initSPI(freq);
+    initSPI(freq, SPI_MODE);
 
     if(_rst < 0) {                     // If no hardware reset pin...
         sendCommand(ILI9341_SWRESET); // Engage software reset
@@ -206,7 +212,6 @@ void Adafruit_ILI9341::begin(uint32_t freq) {
     _width  = ILI9341_TFTWIDTH;
     _height = ILI9341_TFTHEIGHT;
 }
-
 
 /**************************************************************************/
 /*!

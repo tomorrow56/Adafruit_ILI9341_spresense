@@ -1,8 +1,8 @@
 // 'Boing' ball demo for PyPortal.
 // Requires Adafruit_GFX 1.4.5 or later and Adafruit_DMA
 
-#include "Adafruit_GFX.h"
-#include "Adafruit_ILI9341.h"
+#include "Adafruit_GFX_sp.h"
+#include "Adafruit_ILI9341_sp.h"
 #define SCREENWIDTH  ILI9341_TFTHEIGHT // Native display orientation is
 #define SCREENHEIGHT ILI9341_TFTWIDTH  // vertical, so swap width/height
 #include "graphics.h"

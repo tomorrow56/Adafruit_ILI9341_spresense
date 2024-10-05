@@ -1,4 +1,4 @@
-#include <Adafruit_ILI9341.h>
+#include <Adafruit_ILI9341_sp.h>
 
 #ifdef ADAFRUIT_PYPORTAL
   #define TFT_D0        34 // Data bit 0 pin (MUST be on PORT byte boundary)

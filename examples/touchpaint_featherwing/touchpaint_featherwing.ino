@@ -15,8 +15,8 @@
 #include <SPI.h>
 #include <Wire.h>      // this is needed even tho we aren't using it
 
-#include <Adafruit_GFX.h>    // Core graphics library
-#include <Adafruit_ILI9341.h> // Hardware-specific library
+#include <Adafruit_GFX_sp.h>    // Core graphics library
+#include <Adafruit_ILI9341_sp.h> // Hardware-specific library
 #include <Adafruit_STMPE610.h>
 
 #ifdef ESP8266

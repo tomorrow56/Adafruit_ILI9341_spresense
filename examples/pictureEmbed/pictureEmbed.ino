@@ -19,7 +19,7 @@
 //  See also https://forum.pjrc.com/threads/35575-Export-for-ILI9341_t3-with-GIMP
 
 #include "SPI.h"
-#include <Adafruit_ILI9341.h>
+#include <Adafruit_ILI9341_sp.h>
 #include "dragon.h"
 
 // For the Adafruit shield, these are the default.

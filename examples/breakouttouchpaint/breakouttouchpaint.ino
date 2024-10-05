@@ -15,9 +15,9 @@
 
 /** NOT FOR USE WITH THE TOUCH SHIELD, ONLY FOR THE BREAKOUT! **/
 
-#include <Adafruit_GFX.h>    // Core graphics library
+#include <Adafruit_GFX_sp.h>    // Core graphics library
 #include <SPI.h>
-#include <Adafruit_ILI9341.h>
+#include <Adafruit_ILI9341_sp.h>
 #include "TouchScreen.h"
 
 // These are the four touchscreen analog pins

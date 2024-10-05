@@ -3,10 +3,10 @@
 //
 //Thanks to Adafruit forums member Asteroid for the original sketch!
 //
-#include <Adafruit_GFX.h>
+#include <Adafruit_GFX_sp.h>
 #include <SPI.h>
 #include <Wire.h>
-#include <Adafruit_ILI9341.h>
+#include <Adafruit_ILI9341_sp.h>
 #include <Adafruit_STMPE610.h>
 
 // This is calibration data for the raw touch data to the screen coordinates

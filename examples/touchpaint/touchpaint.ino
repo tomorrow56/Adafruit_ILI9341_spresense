@@ -14,10 +14,10 @@
  ****************************************************/
 
 
-#include <Adafruit_GFX.h>    // Core graphics library
+#include <Adafruit_GFX_sp.h>    // Core graphics library
 #include <SPI.h>
 #include <Wire.h>      // this is needed even tho we aren't using it
-#include <Adafruit_ILI9341.h>
+#include <Adafruit_ILI9341_sp.h>
 #include <Adafruit_STMPE610.h>
 
 // This is calibration data for the raw touch data to the screen coordinates

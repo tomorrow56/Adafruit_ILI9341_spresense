@@ -3,8 +3,8 @@
  https://www.adafruit.com/product/4116
  ****************************************************/
 
-#include "Adafruit_GFX.h"
-#include "Adafruit_ILI9341.h"
+#include "Adafruit_GFX_sp.h"
+#include "Adafruit_ILI9341_sp.h"
 
 #define TFT_D0        34 // Data bit 0 pin (MUST be on PORT byte boundary)
 #define TFT_WR        26 // Write-strobe pin (CCL-inverted timer output)

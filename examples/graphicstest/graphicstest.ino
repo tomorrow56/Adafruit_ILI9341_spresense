@@ -15,8 +15,8 @@
 
 
 #include "SPI.h"
-#include "Adafruit_GFX.h"
-#include "Adafruit_ILI9341.h"
+#include "Adafruit_GFX_sp.h"
+#include "Adafruit_ILI9341_sp.h"
 
 // For the Adafruit shield, these are the default.
 #define TFT_DC 9

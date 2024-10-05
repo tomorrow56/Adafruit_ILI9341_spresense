@@ -1,4 +1,4 @@
-#include "Adafruit_ILI9341.h"
+#include "Adafruit_ILI9341_sp.h"
 #include "TouchScreen.h"
 
 #define YP A4
